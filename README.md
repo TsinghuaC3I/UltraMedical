@@ -5,6 +5,13 @@
 </h1>
 </div>
 
+<p align="center">
+  <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical">UltraMedical Dataset</a> •
+  <a href="https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical">UltraMedical LMs</a> •
+  <a href="https://github.com/TsinghuaC3I/UltraMedical">Paper</a>
+</p>
+
+
 <div style="display: flex; justify-content: space-around; align-items: center;" align="center">
   <img src="./assert/ultramedical_process.jpg" alt="pie" style="height: 300px; width: auto;" />
 </div>
