@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical">UltraMedical Dataset</a> •
   <a href="https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical">UltraMedical LMs</a> •
-  <a href="http://101.6.66.20:12345/">Demo</a>
+  <a href="http://101.6.66.20:12345/">Demo</a> •
   <a href="https://github.com/TsinghuaC3I/UltraMedical">Paper</a>
 </p>
 
