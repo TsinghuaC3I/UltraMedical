@@ -184,7 +184,7 @@ Feel free to cite the repo if you think UltraMedical is useful.
 
 ```latex
 @misc{UltraMedical,
-  author = {Zhang, Kaiyan and Ding, Ning and Qi, Biqing and Zeng, Sihang and Li, Haoxin and Chen, Zhang-Ren and Zhou, Bowen},
+  author = {Zhang, Kaiyan and Ding, Ning and Qi, Biqing and Zeng, Sihang and Li, Haoxin and Zhu, Xuekai and Chen, Zhang-Ren and Zhou, Bowen},
   title = {UltraMedical: Building Specialized Generalists in Biomedicine.},
   year = {2024},
   publisher = {GitHub},
