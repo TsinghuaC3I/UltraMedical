@@ -6,10 +6,10 @@
 </div>
 
 <p align="center">
-  <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical">UltraMedical Dataset</a> •
-  <a href="https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical">UltraMedical LMs</a> •
-  <a href="http://101.6.66.20:12345/">Demo</a> •
-  <a href="https://github.com/TsinghuaC3I/UltraMedical">Paper</a>
+  <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical">Dataset</a> •
+  <a href="https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical">Weights</a> •
+  <a href="https://huggingface.co/spaces/TsinghuaC3I/UltraMedical-LM">Demo</a> •
+  <a href="https://github.com/TsinghuaC3I/UltraMedical">Paper (coming soon)</a>
 </p>
 
 
@@ -111,7 +111,7 @@ The UltraMedical suites are a series of chat language models trained on UltraMed
 
 We fine-tuned and released Meta-Llama-3-8B on UltraMedical and achieved the best average results among 7B-level models on popular medical benchmarks, including MedQA, MedMCQA, PubMedQA, and MMLU-Medical. We would like to acknowledge Meta's remarkable Llama model, which served as an excellent base for our fine-tuning process.
 
-- **Demo: [website](http://101.6.66.20:12345/)** - **Huggingface: [Llama-3-8B-UltraMedical](https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical)**
+- **Demo: [Huggingface Space](https://huggingface.co/spaces/TsinghuaC3I/UltraMedical-LM)** - **Huggingface: [Llama-3-8B-UltraMedical](https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical)**
 
 > Note: This version of the model supports only single-turn dialog and has limited capabilities in multi-turn dialogue. We plan to enhance this in the next update.
 
