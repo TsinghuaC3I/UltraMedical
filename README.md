@@ -26,8 +26,6 @@ Our training process involves the use of advanced alignment technologies, includ
 
 ## The UltraMedical Collections
 
-**Huggingface: [UltraMedical](https://huggingface.co/datasets/TsinghuaC3I/UltraMedical)**
-
 The UltraMedical Collections is a large-scale, high-quality dataset of biomedical instructions, comprising 410,000 synthetic and manually curated samples.
 
 Statistics of datasets in the UltraMedical collections is shown in following table, where datasets marked with ★ represent our customized synthetic data, while the others are adapted from publicly available data.
@@ -82,6 +80,10 @@ To prevent test set leakage as a result of employing large-scale synthetic data,
 
 ### Data Format & Release
 
+**Huggingface: [UltraMedical](https://huggingface.co/datasets/TsinghuaC3I/UltraMedical)**
+
+Examples can be found in the [data/examples.json](data/examples.json) file.
+
 ```json
   {
     "id":"TextBookQA,Anatomy_Gray_28",
@@ -100,8 +102,6 @@ To prevent test set leakage as a result of employing large-scale synthetic data,
     "score":"This question would be rated as a 9. It requires a deep understanding of radiographic techniques, the impact of patient positioning on imaging, and the interpretation of cardiac silhouette magnification. Additionally, it involves technical terminology related to radiography and medical conditions."
   }
 ```
-
-We release the UltraMedical collections on Huggingface ...
 
 ## The UltraMedical Suites
 
