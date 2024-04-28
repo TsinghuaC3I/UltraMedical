@@ -8,13 +8,14 @@
 <p align="center">
   <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical">UltraMedical Dataset</a> •
   <a href="https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical">UltraMedical LMs</a> •
+  <a href="http://101.6.66.20:12345/">Demo</a>
   <a href="https://github.com/TsinghuaC3I/UltraMedical">Paper</a>
 </p>
 
 
-<div style="display: flex; justify-content: space-around; align-items: center;" align="center">
+<!-- <div style="display: flex; justify-content: space-around; align-items: center;" align="center">
   <img src="./assert/ultramedical_process.jpg" alt="pie" style="height: 300px; width: auto;" />
-</div>
+</div> -->
 
 This project aims to develop specialized generalist models in the field of biomedicine. These models are designed to excel at answering questions related to exams, clinical scenarios, and research problems while maintaining a broad general knowledge base to effectively handle cross-cutting fields.
 
@@ -108,9 +109,11 @@ The UltraMedical suites are a series of chat language models trained on UltraMed
 
 ### Small Scale LMs (7B-level)
 
-**Huggingface: [Llama-3-8B-UltraMedical](https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical)**
-
 We fine-tuned and released Meta-Llama-3-8B on UltraMedical and achieved the best average results among 7B-level models on popular medical benchmarks, including MedQA, MedMCQA, PubMedQA, and MMLU-Medical. We would like to acknowledge Meta's remarkable Llama model, which served as an excellent base for our fine-tuning process.
+
+- **Demo: [website](http://101.6.66.20:12345/)** - **Huggingface: [Llama-3-8B-UltraMedical](https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical)**
+
+> Note: This version of the model supports only single-turn dialog and has limited capabilities in multi-turn dialogue. We plan to enhance this in the next update.
 
 | Released Date |                 Model                  | Average | MedQA | MedMCQA | PubMedQA | MMLU.ck | MMLU.mg | MMLU.an | MMLU.pm | MMLU.cb | MMLU.cm |
 |:-------------:|:--------------------------------------:|:-------:|:-----:|:-------:|:--------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
