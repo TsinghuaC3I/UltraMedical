@@ -9,7 +9,7 @@
   <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical">Dataset</a> •
   <a href="https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical">Weights</a> •
   <a href="https://huggingface.co/spaces/TsinghuaC3I/UltraMedical-LM">Demo</a> •
-  <a href="https://github.com/TsinghuaC3I/UltraMedical">Paper (coming soon)</a>
+  <a href="https://arxiv.org/abs/2406.03949">Paper</a>
 </p>
 
 
