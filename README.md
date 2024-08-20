@@ -10,7 +10,7 @@
   <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical-Preference">Pref Dataset</a> •
   <a href="https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical">Weights</a> •
   <a href="https://huggingface.co/spaces/TsinghuaC3I/UltraMedical-LM">Demo</a> •
-  <a href="https://github.com/TsinghuaC3I/UltraMedical">Paper (coming soon)</a>
+  <a href="https://arxiv.org/abs/2406.03949">Paper</a>
 </p>
 
 
@@ -132,12 +132,15 @@ We would also like to thank Meta release the wonderful [Llama-3](https://hugging
 Feel free to cite the repo if you think UltraMedical is useful.
 
 ```latex
-@misc{UltraMedical,
-  author = {Zhang, Kaiyan and Ding, Ning and Qi, Biqing and Zeng, Sihang and Li, Haoxin and Zhu, Xuekai and Chen, Zhang-Ren and Zhou, Bowen},
-  title = {UltraMedical: Building Specialized Generalists in Biomedicine.},
-  year = {2024},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/TsinghuaC3I/UltraMedical}},
+@misc{zhang2024ultramedical,
+      title={UltraMedical: Building Specialized Generalists in Biomedicine}, 
+      author={Kaiyan Zhang and Sihang Zeng and Ermo Hua and Ning Ding and Zhang-Ren Chen and Zhiyuan Ma and Haoxin Li and Ganqu Cui and Biqing Qi and Xuekai Zhu and Xingtai Lv and Hu Jinfang and Zhiyuan Liu and Bowen Zhou},
+      year={2024},
+      eprint={2406.03949},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
+
+
+
