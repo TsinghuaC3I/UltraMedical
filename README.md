@@ -37,7 +37,7 @@ The UltraMedical Collections is a large-scale, high-quality dataset of biomedica
 
 ![](./assert/Pipeline.jpg)
 
-The data construction pipeline for UltraMedical is illustrated in Figure 2. All steps for data synthesis are located in the `src/pipeline` directory, with detailed descriptions provided in the table below.
+The data construction pipeline for UltraMedical is illustrated in Figure 2. All steps for data synthesis are located in the [src/pipeline](src/pipeline) directory, with detailed descriptions provided in the table below.
 
 | Filename                     | Operation                                                    | Applied Dataset                      |
 | ---------------------------- | ------------------------------------------------------------ | ------------------------------------ |
@@ -85,7 +85,7 @@ The UltraMedical suites are a series of chat language models trained on UltraMed
 
 The code for Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Kahneman-Tversky Optimization (KTO) is primarily adapted from [huggingface/alignment-handbook](https://github.com/huggingface/alignment-handbook/tree/main). The code for reward modeling is based on [RLHFlow/RLHF-Reward-Modeling](https://github.com/RLHFlow/RLHF-Reward-Modeling).
 
-All config for model training can be found in the `src/finetune/config` directory, you can run the following command to finetune models.
+All config for model training can be found in the [src/finetune/config](src/finetune/config) directory, you can run the following command to finetune models.
 
 ```bash
 # sft
