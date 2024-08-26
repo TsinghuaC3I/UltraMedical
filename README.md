@@ -33,33 +33,24 @@ The UltraMedical Collections is a large-scale, high-quality dataset of biomedica
 
 ![](./assert/Dataset-Statistic.jpg)
 
-### Construction
-
-- **Principle of Diversity**
-
-    - UltraMedical encompasses a variety of question types, including medical exam questions, literature-based questions, and open-ended instructions (clinical questions, research questions, and others). It comprises 12 manual and synthetic datasets. For publicly available datasets, we have gathered questions from multiple sources, including medical exams, medical literature, clinical questions, and open-ended instructions. These datasets feature not only manually curated instructions but also prompted instructions from GPT-4.  The various data sources preliminarily enable the diversity principle of the UltraMedical dataset.
-
-    - In addition to public datasets, we have created three synthetic datasets to augment the UltraMedical collection. One such dataset, named TextBookQA, consists of multiple-choice questions derived from medical textbooks, using questions from MedQA as in-context examples. The other, WikiInstruct, aggregates thousands of biomedical concepts from Wikipedia pages and expands them into more detailed knowledge and instructions.
-
-- **Principle of Complexity**
-
-    -  Beyond the diversity characteristic, UltraMedical also upholds the principle of complexity to inject knowledge and enhance reasoning through complex instructions. There are primarily two methods to enhance the complexity of instructions, either pre-hoc or post-hoc. The former involves starting with various seed instructions to synthesize new instructions, followed by employing self-evolution on these synthetic instructions. The latter method involves filtering instructions using heuristic rules or model-based rankers to select the most complex instructions.
-
-    - During the construction of the UltraMedical dataset, we employ both pre-hoc and post-hoc methods to enhance the complexity of the instructions. For publicly available datasets, we use *gpt-3.5-turbo* to assign a scale score ranging from 1 to 10 to each instruction, where 1 indicates an instruction that is easy to answer and 10 denotes one that is challenging for a powerful AI assistant. For our synthetic dataset, we combine pre-hoc and post-hoc methods to ensure the complexity of the instructions. Initially, we implement a two-step self-evolution process on all synthetic instructions, and then further filter them based on model-derived scores.
+### Running Code
 
 ![](./assert/Pipeline.jpg)
 
-### Annotation and Decontamination
+The data construction pipeline for UltraMedical is illustrated in Figure 2. All steps for data synthesis are located in the `src/pipeline` directory, with detailed descriptions provided in the table below.
 
-We annotate answers using *gpt-4-turbo* to optimize responses for supervised fine-tuning.
-For multiple-choice questions, the chain-of-thought (CoT) method has proven effective in distilling knowledge from large to smaller language models.
-Therefore, we instruct *gpt-4-turbo* to answer each question step by step.
-Subsequently, we verify the answers against the ground truth and filter out incorrect responses.
-For incorrect answers, we further engage *gpt-4-turbo* with dynamically retrieved few-shot CoT examples from our annotated database.
-This process enables us to maximize the number of potential candidate samples while ensuring the quality of the completions.
+| Filename                     | Operation                                                    | Applied Dataset                      |
+| ---------------------------- | ------------------------------------------------------------ | ------------------------------------ |
+| `run_textbook_synthesize.py` | Generates synthetic samples from paragraphs in textbooks     | TextBookQA                           |
+| `run_wikipedia_topic.py`     | Synthesizes instructions based on entities from Wikipedia    | WikiInstruct                         |
+| `run_instruct_evol.py`       | Evolves instructions based on the InstructEvol methodology (see [evol-instruct](https://github.com/nlpxucan/evol-instruct)) | MedQA-Evol, WikiInstruct, TextBookQA |
+| `run_score.py`               | Scores instructions for filtering                            | All datasets                         |
+| `run_decontaminate.py`       | Decontaminates test data within UltraMedical (see [bagel project](https://github.com/jondurbin/bagel/tree/main)) | All datasets                         |
+| `run_feedback.py`            | Requests feedback from GPT-4 on instructions and response candidates | All datasets                         |
+
+**Note:** We provide example data for various operations in the `src/pipeline/data` directory. You can use these examples as a reference to customize your own dataset. And you should first export environment variable for OpenAI, i.e., `export OPENAI_API_KEY="sk-xxxx"` and `export OPENAI_API_BASE="https://api.openai.com/v1"`.
 
 
-To prevent test set leakage as a result of employing large-scale synthetic data, we conduct decontamination operations, similar to the methods outlined in the [bagel project](https://github.com/jondurbin/bagel/tree/main).
 
 ### Data Format & Release
 
@@ -89,6 +80,24 @@ Examples can be found in the [data/examples.json](data/examples.json) file.
 ## The UltraMedical Suites
 
 The UltraMedical suites are a series of chat language models trained on UltraMedical, including small and large scale (7B-level and 70B-level) models.
+
+### Running Code
+
+The code for Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Kahneman-Tversky Optimization (KTO) is primarily adapted from [huggingface/alignment-handbook](https://github.com/huggingface/alignment-handbook/tree/main). The code for reward modeling is based on [RLHFlow/RLHF-Reward-Modeling](https://github.com/RLHFlow/RLHF-Reward-Modeling).
+
+All config for model training can be found in the `src/finetune/config` directory, you can run the following command to finetune models.
+
+```bash
+# sft
+bash scripts/run_sft.sh
+
+# dpo
+bash scripts/run_xpo.sh
+
+# For kto/nca, please modify config path in scripts/run_xpo.sh (Still use `run_dpo.py` code)
+```
+
+
 
 ### SFT and Preference Learning
 

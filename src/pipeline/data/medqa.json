@@ -1,0 +1,322 @@
+[
+  {
+    "id":"medqa,0",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7\u00b0F (36.5\u00b0C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient?\n\nA. Ampicillin\nB. Ceftriaxone\nC. Doxycycline\nD. Nitrofurantoin"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is D."
+      }
+    ],
+    "answer":"D",
+    "score":"This question would likely be rated around a 7 or 8. It requires a strong understanding of obstetrics and gynecology, as well as knowledge of common urinary tract infections and their treatment. Additionally, the question involves the consideration of pregnancy-specific treatment options and the potential risks to the fetus."
+  },
+  {
+    "id":"medqa,2",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A mother brings her 3-week-old infant to the pediatrician's office because she is concerned about his feeding habits. He was born without complications and has not had any medical problems up until this time. However, for the past 4 days, he has been fussy, is regurgitating all of his feeds, and his vomit is yellow in color. On physical exam, the child's abdomen is minimally distended but no other abnormalities are appreciated. Which of the following embryologic errors could account for this presentation?\n\nA. Abnormal migration of ventral pancreatic bud\nB. Complete failure of proximal duodenum to recanalize\nC. Abnormal hypertrophy of the pylorus\nD. Failure of lateral body folds to move ventrally and fuse in the midline"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is A."
+      }
+    ],
+    "answer":"A",
+    "score":"This question would be rated as a 7. It requires a deep understanding of embryology, specifically related to the development of the gastrointestinal system. It also involves the application of this knowledge to a clinical scenario, making it more complex. Additionally, it requires knowledge of medical terminology and the ability to analyze the presented symptoms in the context of embryologic errors.\n\nJustification: The question involves a high level of knowledge about embryology and its clinical implications, as well as the ability to apply this knowledge to a specific case. It also requires an understanding of medical terminology and the ability to analyze the presented symptoms in the context of embryologic errors, making it a complex and difficult question."
+  },
+  {
+    "id":"medqa,3",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A pulmonary autopsy specimen from a 58-year-old woman who died of acute hypoxic respiratory failure was examined. She had recently undergone surgery for a fractured femur 3 months ago. Initial hospital course was uncomplicated, and she was discharged to a rehab facility in good health. Shortly after discharge home from rehab, she developed sudden shortness of breath and had cardiac arrest. Resuscitation was unsuccessful. On histological examination of lung tissue, fibrous connective tissue around the lumen of the pulmonary artery is observed. Which of the following is the most likely pathogenesis for the present findings?\n\nA. Thromboembolism\nB. Pulmonary ischemia\nC. Pulmonary hypertension\nD. Pulmonary passive congestion"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is A."
+      }
+    ],
+    "answer":"A",
+    "score":"This question would be rated as a 7. It requires a deep understanding of pulmonary pathology, including the pathogenesis of various conditions such as thromboembolism, pulmonary ischemia, pulmonary hypertension, and pulmonary passive congestion. It also involves knowledge of the potential complications following surgery and their impact on the pulmonary vasculature."
+  },
+  {
+    "id":"medqa,4",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 20-year-old woman presents with menorrhagia for the past several years. She says that her menses \u201chave always been heavy\u201d, and she has experienced easy bruising for as long as she can remember. Family history is significant for her mother, who had similar problems with bruising easily. The patient's vital signs include: heart rate 98/min, respiratory rate 14/min, temperature 36.1\u00b0C (96.9\u00b0F), and blood pressure 110/87 mm Hg. Physical examination is unremarkable. Laboratory tests show the following: platelet count 200,000/mm3, PT 12 seconds, and PTT 43 seconds. Which of the following is the most likely cause of this patient\u2019s symptoms?\n\nA. Hemophilia A\nB. Lupus anticoagulant\nC. Protein C deficiency\nD. Von Willebrand disease"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is D."
+      }
+    ],
+    "answer":"D",
+    "score":"Score: 7\n\nJustification: This question requires a deep understanding of various bleeding disorders, including their clinical presentations, laboratory findings, and inheritance patterns. It also involves the interpretation of laboratory test results and the application of knowledge in a clinical scenario."
+  },
+  {
+    "id":"medqa,5",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 40-year-old zookeeper presents to the emergency department complaining of severe abdominal pain that radiates to her back, and nausea. The pain started 2 days ago and slowly increased until she could not tolerate it any longer. Past medical history is significant for hypertension and hypothyroidism. Additionally, she reports that she was recently stung by one of the zoo\u2019s smaller scorpions, but did not seek medical treatment. She takes aspirin, levothyroxine, oral contraceptive pills, and a multivitamin daily. Family history is noncontributory. Today, her blood pressure is 108/58 mm Hg, heart rate is 99/min, respiratory rate is 21/min, and temperature is 37.0\u00b0C (98.6\u00b0F). On physical exam, she is a well-developed, obese female that looks unwell. Her heart has a regular rate and rhythm. Radial pulses are weak but symmetric. Her lungs are clear to auscultation bilaterally. Her lateral left ankle is swollen, erythematous, and painful to palpate. An abdominal CT is consistent with acute pancreatitis. Which of the following is the most likely etiology for this patient\u2019s disease?\n\nA. Aspirin\nB. Oral contraceptive pills\nC. Scorpion sting\nD. Hypothyroidism"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is C."
+      }
+    ],
+    "answer":"C",
+    "score":"This question would be rated as a 7. It requires a deep understanding of medical conditions, pharmacology, and the potential interactions between medications and medical history. The question also involves critical thinking to analyze the presented symptoms and make a diagnosis."
+  },
+  {
+    "id":"medqa,6",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 25-year-old primigravida presents to her physician for a routine prenatal visit. She is at 34 weeks gestation, as confirmed by an ultrasound examination. She has no complaints, but notes that the new shoes she bought 2 weeks ago do not fit anymore. The course of her pregnancy has been uneventful and she has been compliant with the recommended prenatal care. Her medical history is unremarkable. She has a 15-pound weight gain since the last visit 3 weeks ago. Her vital signs are as follows: blood pressure, 148/90 mm Hg; heart rate, 88/min; respiratory rate, 16/min; and temperature, 36.6\u2103 (97.9\u2109). The blood pressure on repeat assessment 4 hours later is 151/90 mm Hg. The fetal heart rate is 151/min. The physical examination is significant for 2+ pitting edema of the lower extremity. Which of the following tests o should confirm the probable condition of this patient?\n\nA. Bilirubin assessment\nB. Coagulation studies\nC. Leukocyte count with differential\nD. 24-hour urine protein"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is D."
+      }
+    ],
+    "answer":"D",
+    "score":"This question would likely be rated as a 7. It requires a deep understanding of prenatal care, pregnancy complications, and the significance of the patient's symptoms and vital signs. Additionally, knowledge of the specific tests used to diagnose certain conditions in pregnancy is necessary."
+  },
+  {
+    "id":"medqa,7",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 3900-g (8.6-lb) male infant is delivered at 39 weeks' gestation via spontaneous vaginal delivery. Pregnancy and delivery were uncomplicated but a prenatal ultrasound at 20 weeks showed a defect in the pleuroperitoneal membrane. Further evaluation of this patient is most likely to show which of the following findings?\n\nA. Gastric fundus in the thorax\nB. Pancreatic ring around the duodenum\nC. Hypertrophy of the gastric pylorus\nD. Large bowel in the inguinal canal"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is A."
+      }
+    ],
+    "answer":"A",
+    "score":"This question would likely be rated around a 7 or 8. It requires a deep understanding of embryology, anatomy, and prenatal development, as well as knowledge of specific defects and their associated findings. Additionally, it involves understanding the potential consequences of the defect described in the question."
+  },
+  {
+    "id":"medqa,8",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 62-year-old woman presents for a regular check-up. She complains of lightheadedness and palpitations which occur episodically. Past medical history is significant for a myocardial infarction 6 months ago and NYHA class II chronic heart failure. She also was diagnosed with grade I arterial hypertension 4 years ago. Current medications are aspirin 81 mg, atorvastatin 10 mg, enalapril 10 mg, and metoprolol 200 mg daily. Her vital signs are a blood pressure of 135/90 mm Hg, a heart rate of 125/min, a respiratory rate of 14/min, and a temperature of 36.5\u00b0C (97.7\u00b0F). Cardiopulmonary examination is significant for irregular heart rhythm and decreased S1 intensity. ECG is obtained and is shown in the picture (see image). Echocardiography shows a left ventricular ejection fraction of 39%. Which of the following drugs is the best choice for rate control in this patient?\n\nA. Atenolol\nB. Diltiazem\nC. Propafenone\nD. Digoxin"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is D."
+      }
+    ],
+    "answer":"D",
+    "score":"This question would be rated as a 9. It requires a deep understanding of cardiology, pharmacology, and the management of heart failure and arrhythmias. The question also involves interpreting ECG and echocardiography findings to determine the best treatment option for the patient's condition."
+  },
+  {
+    "id":"medqa,9",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 35-year-old male presents to his primary care physician with complaints of seasonal allergies. He has been using intranasal vasoconstrictors several times per day for several weeks. What is a likely sequela of the chronic use of topical nasal decongestants?\n\nA. Epistaxis\nB. Permanent loss of smell\nC. Persistent nasal crusting\nD. Persistent congestion"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is D."
+      }
+    ],
+    "answer":"D",
+    "score":"This question would likely be rated a 7. It requires a deep understanding of the pharmacological effects of intranasal vasoconstrictors and their potential long-term consequences on nasal health. Additionally, it involves understanding the potential side effects and complications associated with chronic use of these medications."
+  },
+  {
+    "id":"medqa,10",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 46-year-old woman comes to the physician because of a 2-week history of diplopia and ocular pain when reading the newspaper. She also has a 3-month history of amenorrhea, hot flashes, and increased sweating. She reports that she has been overweight all her adult life and is happy to have lost 6.8-kg (15-lb) of weight in the past 2 months. Her pulse is 110/min, and blood pressure is 148/98 mm Hg. Physical examination shows moist palms and a nontender thyroid gland that is enlarged to two times its normal size. Ophthalmologic examination shows prominence of the globes of the eyes, bilateral lid retraction, conjunctival injection, and an inability to converge the eyes. There is no pain on movement of the extraocular muscles. Visual acuity is 20/20 bilaterally. Neurologic examination shows a fine resting tremor of the hands. Deep tendon reflexes are 3+ with a shortened relaxation phase. Which of the following is the most likely cause of this patient's ocular complaints?\n\nA. Granulomatous inflammation of the cavernous sinus\nB. Abnormal communication between the cavernous sinus and the internal carotid artery\nC. Glycosaminoglycan accumulation in the orbit\nD. Sympathetic hyperactivity of levator palpebrae superioris\n\""
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is C."
+      }
+    ],
+    "answer":"C",
+    "score":"I would rate this question a 7. It requires a deep understanding of endocrinology, ophthalmology, and neurology, as well as the ability to integrate information from different systems. The question also involves a high level of technical terminology and requires the ability to analyze clinical findings to arrive at a diagnosis."
+  },
+  {
+    "id":"medqa,11",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 1-year-old boy presents to the emergency department with weakness and a change in his behavior. His parents state that they first noticed the change in his behavior this morning and it has been getting worse. They noticed the patient was initially weak in his upper body and arms, but now he won\u2019t move his legs with as much strength or vigor as he used to. Physical exam is notable for bilateral ptosis with a sluggish pupillary response, a very weak sucking and gag reflex, and shallow respirations. The patient is currently drooling and his diaper is dry. The parents state he has not had a bowel movement in over 1 day. Which of the following is the pathophysiology of this patient\u2019s condition?\n\nA. Autoantibodies against the presynaptic voltage-gated calcium channels\nB. Autoimmune demyelination of peripheral nerves\nC. Blockade of presynaptic acetylcholine release at the neuromuscular junction\nD. Lower motor neuron destruction in the anterior horn"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is C."
+      }
+    ],
+    "answer":"C",
+    "score":"This question would likely be rated as a 7 or 8. It requires a deep understanding of neurology and neuromuscular disorders, as well as knowledge of the specific pathophysiology of the symptoms described. The question involves multiple concepts, technical terminology, and the need for analytical thinking to select the correct answer."
+  },
+  {
+    "id":"medqa,12",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 9-month-old female is brought to the emergency department after experiencing a seizure. She was born at home and was normal at birth according to her parents. Since then, they have noticed that she does not appear to be achieving developmental milestones as quickly as her siblings, and often appears lethargic. Physical exam reveals microcephaly, very light pigmentation (as compared to her family), and a \"musty\" body odor. The varied manifestations of this disease can most likely be attributed to which of the following genetic principles?\n\nA. Anticipation\nB. Multiple gene mutations\nC. Pleiotropy\nD. Variable expressivity"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is C."
+      }
+    ],
+    "answer":"C",
+    "score":"This question would likely be rated as a 7. It requires knowledge of genetic principles, developmental milestones, and clinical manifestations of genetic diseases. The question also involves interpreting the varied symptoms of the patient and applying genetic principles to explain them, making it complex."
+  },
+  {
+    "id":"medqa,13",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 23-year-old man comes to the physician for evaluation of decreased hearing, dizziness, and ringing in his right ear for the past 6 months. Physical examination shows multiple soft, yellow plaques and papules on his arms, chest, and back. There is sensorineural hearing loss and weakness of facial muscles bilaterally. His gait is unsteady. An MRI of the brain shows a 3-cm mass near the right internal auditory meatus and a 2-cm mass at the left cerebellopontine angle. The abnormal cells in these masses are most likely derived from which of the following embryological structures?\n\nA. Neural tube\nB. Surface ectoderm\nC. Neural crest\nD. Notochord"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is C."
+      }
+    ],
+    "answer":"C",
+    "score":"Score: 8\n\nJustification: This question requires a deep understanding of embryology, anatomy, and pathology. It also involves knowledge of specific clinical presentations and diagnostic imaging. The question also requires the ability to apply this knowledge to determine the origin of abnormal cells in the described masses."
+  },
+  {
+    "id":"medqa,14",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 62-year-old woman comes to the physician because of coughing and fatigue during the past 2 years. In the morning, the cough is productive of white phlegm. She becomes short of breath walking up a flight of stairs. She has hypertension and hyperlipidemia. She has recently retired from working as a nurse at a homeless shelter. She has smoked 1 pack of cigarettes daily for 40 years. Current medications include ramipril and fenofibrate. Her temperature is 36.5\u00b0C (97.7\u00b0F), respirations are 24/min, pulse is 85/min, and blood pressure is 140/90 mm Hg. Scattered wheezing and rhonchi are heard throughout both lung fields. There are no murmurs, rubs, or gallops but heart sounds are distant. Which of the following is the most likely underlying cause of this patient's symptoms?\n\nA. Chronic decrease in pulmonary compliance\nB. Local accumulation of kinins\nC. Progressive obstruction of expiratory airflow\nD. Incremental loss of functional residual capacity\n\""
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is C."
+      }
+    ],
+    "answer":"C",
+    "score":"This question would likely be rated around a 7 or 8. It requires a deep understanding of respiratory physiology, cardiovascular risk factors, and the pathophysiology of chronic obstructive pulmonary disease (COPD). It also involves interpreting clinical symptoms and correlating them with the patient's history and physical exam findings. The presence of technical terminology and the need for analytical thinking also contribute to the complexity."
+  },
+  {
+    "id":"medqa,15",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 68-year-old man presents to the emergency department with leg pain. He states that the pain started suddenly while he was walking outside. The patient has a past medical history of diabetes, hypertension, obesity, and atrial fibrillation. His temperature is 99.3\u00b0F (37.4\u00b0C), blood pressure is 152/98 mmHg, pulse is 97/min, respirations are 15/min, and oxygen saturation is 99% on room air. Physical exam is notable for a cold and pale left leg. The patient\u2019s sensation is markedly diminished in the left leg when compared to the right, and his muscle strength is 1/5 in his left leg. Which of the following is the best next step in management?\n\nA. Graded exercise and aspirin\nB. Heparin drip\nC. Surgical thrombectomy\nD. Tissue plasminogen activator"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is B."
+      }
+    ],
+    "answer":"B",
+    "score":"This question would be rated as a 9. It requires a deep understanding of medical conditions such as diabetes, hypertension, atrial fibrillation, and their potential complications, as well as the ability to apply that knowledge to a clinical scenario involving acute limb ischemia. The question also involves the need to make a critical decision regarding the best next step in management, which adds to its complexity."
+  },
+  {
+    "id":"medqa,16",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 76-year-old African American man presents to his primary care provider complaining of urinary frequency. He wakes up 3-4 times per night to urinate while he previously only had to wake up once per night. He also complains of post-void dribbling and difficulty initiating a stream of urine. He denies any difficulty maintaining an erection. His past medical history is notable for non-alcoholic fatty liver disease, hypertension, hyperlipidemia, and gout. He takes aspirin, atorvastatin, enalapril, and allopurinol. His family history is notable for prostate cancer in his father and lung cancer in his mother. He has a 15-pack-year smoking history and drinks alcohol socially. On digital rectal exam, his prostate is enlarged, smooth, and non-tender. Which of the following medications is indicated in this patient?\n\nA. Hydrochlorothiazide\nB. Midodrine\nC. Oxybutynin\nD. Tamsulosin"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is D."
+      }
+    ],
+    "answer":"D",
+    "score":"This question would be rated a 7. It requires knowledge of genitourinary anatomy and physiology, understanding of medication indications, and the ability to apply that knowledge to a clinical scenario. The question also involves interpretation of the patient's medical history and physical exam findings."
+  },
+  {
+    "id":"medqa,17",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 68-year-old man comes to the physician because of recurrent episodes of nausea and abdominal discomfort for the past 4 months. The discomfort is located in the upper abdomen and sometimes occurs after eating, especially after a big meal. He has tried to go for a walk after dinner to help with digestion, but his complaints have only increased. For the past 3 weeks he has also had symptoms while climbing the stairs to his apartment. He has type 2 diabetes mellitus, hypertension, and stage 2 peripheral arterial disease. He has smoked one pack of cigarettes daily for the past 45 years. He drinks one to two beers daily and occasionally more on weekends. His current medications include metformin, enalapril, and aspirin. He is 168 cm (5 ft 6 in) tall and weighs 126 kg (278 lb); BMI is 45 kg/m2. His temperature is 36.4\u00b0C (97.5\u00b0F), pulse is 78/min, and blood pressure is 148/86 mm Hg. On physical examination, the abdomen is soft and nontender with no organomegaly. Foot pulses are absent bilaterally. An ECG shows no abnormalities. Which of the following is the most appropriate next step in diagnosis?\n\nA. Esophagogastroduodenoscopy\nB. Hydrogen breath test\nC. Cardiac stress test\nD. Abdominal ultrasonography of the right upper quadrant"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is C."
+      }
+    ],
+    "answer":"C",
+    "score":"This question would likely be rated around a 7. It requires a broad knowledge of internal medicine, particularly in the areas of gastroenterology, cardiology, and endocrinology. It also involves interpreting symptoms and risk factors to determine the most appropriate next step in diagnosis."
+  },
+  {
+    "id":"medqa,18",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 27-year-old female presents to general medical clinic for a routine checkup. She has a genetic disease marked by a mutation in a chloride transporter. She has a history of chronic bronchitis. She has a brother with a similar history of infections as well as infertility. Which of the following is most likely true regarding a potential vitamin deficiency complication secondary to this patient's chronic illness?\n\nA. It may result in corneal vascularization\nB. It may result in the triad of confusion, ophthalmoplegia, and ataxia\nC. It may be exacerbated by excessive ingestion of raw eggs\nD. It may manifest itself as a prolonged PT"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is D."
+      }
+    ],
+    "answer":"D",
+    "score":"This question would likely be rated as a 7. It requires knowledge of genetic diseases, chloride transporters, chronic illness, and potential vitamin deficiencies, as well as the ability to apply this knowledge to the presented case. The question also involves understanding potential complications of vitamin deficiencies and their associated symptoms."
+  },
+  {
+    "id":"medqa,19",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A previously healthy 36-year-old man comes to the physician for a yellow discoloration of his skin and dark-colored urine for 2 weeks. He does not drink any alcohol. Physical examination shows jaundice. Abdominal and neurologic examinations show no abnormalities. Serum studies show increased levels of alanine aminotransferase (ALT) and aspartate aminotransferase (AST). A liver biopsy is performed and a photomicrograph after periodic acid-Schiff-staining is shown. Which of the following is the most likely additional finding in this patient?\n\nA. Bullous changes of the lung bases on chest CT\nB. Beading of intra- and extrahepatic bile ducts on ERCP\nC. Myocardial iron deposition on cardiovascular MRI\nD. Dark corneal ring on slit-lamp examination"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is A."
+      }
+    ],
+    "answer":"A",
+    "score":"This question would likely be rated as a 7. It requires a deep understanding of liver function, liver diseases, and diagnostic procedures, as well as the ability to interpret a photomicrograph. The question also involves knowledge of different medical imaging techniques and their findings, making it complex."
+  },
+  {
+    "id":"medqa,20",
+    "type":"mc",
+    "conversations":[
+      {
+        "from":"human",
+        "value":"A 69-year-old male presents to the emergency room with back pain. He has a history of personality disorder and metastatic prostate cancer and was not a candidate for surgical resection. He began chemotherapy but discontinued due to unremitting nausea. He denies any bowel or bladder incontinence. He has never had pain like this before and is demanding morphine. The nurse administers IV morphine and he feels more comfortable. Vital signs are stable. On physical examination you note tenderness to palpation along the lower spine, weakness in the bilateral lower extremities, left greater than right. Neurological examination is also notable for hyporeflexia in the knee and ankle jerks bilaterally. You conduct a rectal examination, which reveals saddle anesthesia. Regarding this patient, what is the most likely diagnosis and the appropriate next step in management?\n\nA. The most likely diagnosis is cauda equina syndrome and steroids should be started prior to MRI\nB. The most likely diagnosis is cauda equina syndrome and steroids should be started after to MRI\nC. The most likely diagnosis is cauda equina syndrome and the patient should be rushed to radiation\nD. The most likely diagnosis is conus medullaris syndrome and steroids should be started prior to MRI"
+      },
+      {
+        "from":"gpt",
+        "value":"The answer is A."
+      }
+    ],
+    "answer":"A",
+    "score":"This question would be rated as a 9. It requires a deep understanding of medical terminology, anatomy, and the differential diagnosis of spinal cord compression syndromes. Additionally, it involves critical thinking to determine the appropriate next step in management based on the clinical presentation."
+  }
+]

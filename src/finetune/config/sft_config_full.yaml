@@ -1,0 +1,50 @@
+# Model arguments
+model_name_or_path: meta-llama/Meta-Llama-3.1-8B
+model_revision: main
+torch_dtype: bfloat16
+use_flash_attention_2: true
+
+# Data training arguments
+dataset_mixer:
+  ultramedical: 1.0
+dataset_splits:
+- train
+- test
+preprocessing_num_workers: 16
+dataset_dir: your_path_to_dataset
+chat_template: "{% set loop_messages = messages %}{% for message in loop_messages %}{% set content = '<|start_header_id|>' + message['role'] + '<|end_header_id|>\n\n'+ message['content'] | trim + '<|eot_id|>' %}{% if loop.index0 == 0 %}{% set content = bos_token + content %}{% endif %}{{ content }}{% endfor %}{{ '<|start_header_id|>assistant<|end_header_id|>\n\n' }}"
+# dataset_num_proc: 64
+# packing: false # which will result in timeout
+
+# SFT trainer config
+bf16: true
+do_eval: false
+evaluation_strategy: steps
+eval_steps: 1000000000
+gradient_accumulation_steps: 1
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: true
+learning_rate: 1.0e-5
+log_level: info
+logging_steps: 1
+logging_strategy: steps
+lr_scheduler_type: cosine
+max_seq_length: 8192
+max_steps: -1
+num_train_epochs: 1
+optim: adamw_torch
+output_dir: outputs/ultramedical/Meta-Llama-3.1-8B/1e-5-length8192
+overwrite_output_dir: true
+per_device_eval_batch_size: 2
+per_device_train_batch_size: 2
+push_to_hub: false
+remove_unused_columns: true
+report_to:
+- tensorboard
+save_strategy: "epoch"
+save_steps: 500
+save_total_limit: 8
+seed: 42
+warmup_ratio: 0.1
+deepspeed: src/finetune/deepspeed_configs/deepspeed_zero3.json

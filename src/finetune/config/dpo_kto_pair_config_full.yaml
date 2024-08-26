@@ -1,0 +1,53 @@
+# Model arguments
+model_name_or_path: outputs/ultramedical/Meta-Llama-3.1-8B/1e-5-length8192
+torch_dtype: bfloat16
+
+# Data training arguments
+# For definitions, see: src/h4/training/config.py
+dataset_mixer:
+  UltraMedical-Preference: 1.0
+dataset_splits:
+  - train
+  - dev
+preprocessing_num_workers: 64
+dataset_dir: your_path_to_dataset
+chat_template: "{% set loop_messages = messages %}{% for message in loop_messages %}{% set content = '<|start_header_id|>' + message['role'] + '<|end_header_id|>\n\n'+ message['content'] | trim + '<|eot_id|>' %}{% if loop.index0 == 0 %}{% set content = bos_token + content %}{% endif %}{{ content }}{% endfor %}{{ '<|start_header_id|>assistant<|end_header_id|>\n\n' }}"
+
+# dataset_num_proc: 32
+# packing: false # which will result in timeout
+
+# https://huggingface.co/docs/transformers/v4.41.1/en/main_classes/trainer#transformers.TrainingArguments.ddp_timeout
+ddp_timeout: 3600
+
+# DPOTrainer arguments
+bf16: true
+beta: 0.1
+do_eval: true
+loss_type: kto_pair
+evaluation_strategy: steps
+eval_steps: 100000000
+gradient_accumulation_steps: 1
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: False
+learning_rate: 3.0e-7
+log_level: info
+logging_steps: 1
+lr_scheduler_type: cosine
+max_length: 2048
+max_prompt_length: 512
+num_train_epochs: 1
+optim: adamw_torch
+output_dir: outputs/ultramedical/Meta-Llama-3.1-8B-Instruct-1e-5-kto-pair/3e-7
+per_device_train_batch_size: 4
+per_device_eval_batch_size: 4
+push_to_hub: false
+save_strategy: "epoch"
+save_steps: 500
+save_total_limit: 10
+seed: 42
+warmup_ratio: 0.1
+local_rank: 0
+report_to:
+- tensorboard
+deepspeed: src/finetune/deepspeed_configs/deepspeed_zero3.json

@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Genomics",
+        "description": "Genomics involves the comprehensive study of genomes, the complete set of DNA within an organism, to understand genetic variation and function in health and disease."
+    },
+    {
+        "name": "Proteomics",
+        "description": "Proteomics is the large-scale study of proteomes, the entire complement of proteins produced by an organism, to understand protein structure, function, and interactions."
+    },
+    {
+        "name": "Immunology",
+        "description": "Immunology is the study of the immune system, its components, how it fights disease, and how it can be harnessed for therapies."
+    },
+    {
+        "name": "Pharmacology",
+        "description": "Pharmacology examines the interactions between drugs and biological systems, aiming to discover and develop new medications."
+    },
+    {
+        "name": "Bioinformatics",
+        "description": "Bioinformatics combines biology, computer science, and information technology to analyze and interpret biological data, such as genetic sequences."
+    },
+    {
+        "name": "Regenerative Medicine",
+        "description": "Regenerative medicine focuses on repairing or replacing damaged cells, tissues, and organs through techniques like stem cell therapy and tissue engineering."
+    },
+    {
+        "name": "Medical Imaging",
+        "description": "Medical imaging uses techniques such as MRI, CT scans, and X-rays to visualize the interior of the body for diagnosis and treatment planning."
+    },
+    {
+        "name": "Biomechanics",
+        "description": "Biomechanics applies principles of mechanics to understand the movement and structure of biological systems, with applications in prosthetics and injury prevention."
+    },
+    {
+        "name": "Toxicology",
+        "description": "Toxicology studies the harmful effects of chemical substances on living organisms and the environment, with the goal of improving safety and managing risks."
+    },
+    {
+        "name": "Epidemiology",
+        "description": "Epidemiology is the study of the distribution, patterns, and determinants of health and disease conditions in defined populations."
+    },
+    {
+        "name": "Cancer Biology",
+        "description": "Cancer biology investigates the molecular and cellular basis of cancer to develop better diagnostics, treatments, and preventive strategies."
+    },
+    {
+        "name": "Molecular Biology",
+        "description": "Molecular biology explores the molecular underpinnings of biological processes, including gene expression, regulation, and protein function."
+    },
+    {
+        "name": "Nutritional Science",
+        "description": "Nutritional science examines the impact of food and nutrients on health, metabolism, and disease prevention."
+    },
+    {
+        "name": "Biomedical Engineering",
+        "description": "Biomedical engineering combines engineering principles with medical and biological sciences to design and create equipment, devices, computer systems, and software used in healthcare."
+    },
+    {
+        "name": "Neurobiology",
+        "description": "Neurobiology studies the biology of the nervous system, including its structure, function, development, and pathology."
+    },
+    {
+        "name": "Virology",
+        "description": "Virology is the study of viruses and virus-like agents, their structure, function, and their impact on living organisms."
+    },
+    {
+        "name": "Cardiovascular Biology",
+        "description": "Cardiovascular biology focuses on the study of the heart and blood vessels, their function, and related diseases."
+    },
+    {
+        "name": "Developmental Biology",
+        "description": "Developmental biology investigates the process by which organisms grow and develop, from fertilization to maturity."
+    },
+    {
+        "name": "Biogerontology",
+        "description": "Biogerontology studies the biological processes of aging and the associated changes in organisms over time."
+    },
+    {
+        "name": "Microbiome Research",
+        "description": "Microbiome research explores the complex communities of microorganisms that inhabit various environments within the human body and their relationship to health and disease."
+    }
+]
