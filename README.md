@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical">SFT Dataset</a> •
   <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical-Preference">Pref Dataset</a> •
-  <a href="https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical">Weights</a> •
+  <a href="https://huggingface.co/collections/TsinghuaC3I/ultramedical-66d4076bad293ffc4bc41327">Collection</a> •
   <a href="https://huggingface.co/spaces/TsinghuaC3I/UltraMedical-LM">Demo</a> •
   <a href="https://arxiv.org/abs/2406.03949">Paper</a>
 </p>
@@ -26,6 +26,17 @@ To achieve this goal, we have constructed a large-scale, high-quality dataset of
 
 Our training process involves the use of advanced alignment technologies, including Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Kahneman-Tversky Optimization (KTO). By leveraging these techniques and training large language models on the UltraMedical dataset, we aim to create powerful and versatile models that can effectively serve the needs of the biomedical community.
 
+## Released
+
+| Item |  Link |
+| :----: | :----: |
+| Dataset | 🤗 [TsinghuaC3I/UltraMedical](https://huggingface.co/datasets/TsinghuaC3I/UltraMedical) |
+| Dataset | 🤗 [TsinghuaC3I/UltraMedical-Preference](https://huggingface.co/datasets/TsinghuaC3I/UltraMedical-Preference) |
+| Model | 🤗 [TsinghuaC3I/Llama-3-8B-UltraMedical](https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical) |
+| Model | 🤗 [TsinghuaC3I/Llama-3-70B-UltraMedical](https://huggingface.co/TsinghuaC3I/Llama-3-70B-UltraMedical) |
+| Model | 🤗 [TsinghuaC3I/Llama-3.1-8B-UltraMedical](https://huggingface.co/TsinghuaC3I/Llama-3.1-8B-UltraMedical) |
+| Model | 🤗 TsinghuaC3I/Llama-3.1-70B-UltraMedical |
+
 
 ## The UltraMedical Collections
 
@@ -41,12 +52,12 @@ The data construction pipeline for UltraMedical is illustrated in Figure 2. All 
 
 | Filename                     | Operation                                                    | Applied Dataset                      |
 | ---------------------------- | ------------------------------------------------------------ | ------------------------------------ |
-| `run_textbook_synthesize.py` | Generates synthetic samples from paragraphs in textbooks     | TextBookQA                           |
-| `run_wikipedia_topic.py`     | Synthesizes instructions based on entities from Wikipedia    | WikiInstruct                         |
-| `run_instruct_evol.py`       | Evolves instructions based on the InstructEvol methodology (see [evol-instruct](https://github.com/nlpxucan/evol-instruct)) | MedQA-Evol, WikiInstruct, TextBookQA |
-| `run_score.py`               | Scores instructions for filtering                            | All datasets                         |
-| `run_decontaminate.py`       | Decontaminates test data within UltraMedical (see [bagel project](https://github.com/jondurbin/bagel/tree/main)) | All datasets                         |
-| `run_feedback.py`            | Requests feedback from GPT-4 on instructions and response candidates | All datasets                         |
+| [run_textbook_synthesize.py](src/pipeline/run_textbook_synthesize.py) | Generates synthetic samples from paragraphs in textbooks     | TextBookQA                           |
+| [run_wikipedia_topic.py](src/pipeline/run_wikipedia_topic.py)     | Synthesizes instructions based on entities from Wikipedia    | WikiInstruct                         |
+| [run_instruct_evol.py](src/pipeline/run_instruct_evol.py)       | Evolves instructions based on the InstructEvol methodology (see [evol-instruct](https://github.com/nlpxucan/evol-instruct)) | MedQA-Evol, WikiInstruct, TextBookQA |
+| [run_score.py](src/pipeline/run_score.py)               | Scores instructions for filtering                            | All datasets                         |
+| [run_decontaminate.py](src/pipeline/run_decontaminate.py)       | Decontaminates test data within UltraMedical (see [bagel project](https://github.com/jondurbin/bagel/tree/main)) | All datasets                         |
+| [run_feedback.py](src/pipeline/run_feedback.py)            | Requests feedback from GPT-4 on instructions and response candidates | All datasets                         |
 
 **Note:** We provide example data for various operations in the `src/pipeline/data` directory. You can use these examples as a reference to customize your own dataset. And you should first export environment variable for OpenAI, i.e., `export OPENAI_API_KEY="sk-xxxx"` and `export OPENAI_API_BASE="https://api.openai.com/v1"`.
 
