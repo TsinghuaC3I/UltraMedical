@@ -6,11 +6,11 @@
 </div>
 
 <p align="center">
-  <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical">SFT Dataset</a> •
-  <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical-Preference">Pref Dataset</a> •
-  <a href="https://huggingface.co/collections/TsinghuaC3I/ultramedical-66d4076bad293ffc4bc41327">Collection</a> •
-  <a href="https://huggingface.co/spaces/TsinghuaC3I/UltraMedical-LM">Demo</a> •
-  <a href="https://arxiv.org/abs/2406.03949">Paper</a>
+  <!-- <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical">SFT Dataset</a> •
+  <a href="https://huggingface.co/datasets/TsinghuaC3I/UltraMedical-Preference">Pref Dataset</a> • -->
+  <a href="https://huggingface.co/collections/TsinghuaC3I/ultramedical-66d4076bad293ffc4bc41327">🤗 Dataset & Model Collection</a> •
+  <a href="https://huggingface.co/spaces/TsinghuaC3I/UltraMedical-LM">🤗 Demo</a> •
+  <a href="https://arxiv.org/abs/2406.03949">📃 Paper</a>
 </p>
 
 
