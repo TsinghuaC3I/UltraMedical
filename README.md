@@ -162,9 +162,7 @@ Feel free to cite the repo if you think UltraMedical is useful.
       title={UltraMedical: Building Specialized Generalists in Biomedicine}, 
       author={Kaiyan Zhang and Sihang Zeng and Ermo Hua and Ning Ding and Zhang-Ren Chen and Zhiyuan Ma and Haoxin Li and Ganqu Cui and Biqing Qi and Xuekai Zhu and Xingtai Lv and Hu Jinfang and Zhiyuan Liu and Bowen Zhou},
       year={2024},
-      eprint={2406.03949},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track}
 }
 ```
 
