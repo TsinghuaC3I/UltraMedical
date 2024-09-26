@@ -13,11 +13,17 @@
   <a href="https://arxiv.org/abs/2406.03949">📃 Paper</a>
 </p>
 
+## News
+- [Sep, 2024] The UltraMedical paper has been accepted as a spotlight at NeurIPS2024 D&B Track! 🎉
+- [Aug, 2024] We released UltraMedical preference dataset and models basd on Llama3 70B and Llama3.1 8B!
+- [Jun, 2024] The preprint UltraMedical paper has been published on arxiv!
+- [April, 2024] The UltraMedical instruction dataset and model based on Llama3 8B have been released!
 
 <!-- <div style="display: flex; justify-content: space-around; align-items: center;" align="center">
   <img src="./assert/ultramedical_process.jpg" alt="pie" style="height: 300px; width: auto;" />
 </div> -->
 
+## Introduction
 ![](./assert/Performance-MedQA.jpg)
 
 This project aims to develop specialized generalist models in the field of biomedicine. These models are designed to excel at answering questions related to exams, clinical scenarios, and research problems while maintaining a broad general knowledge base to effectively handle cross-cutting fields.
